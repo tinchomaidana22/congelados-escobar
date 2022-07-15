@@ -67,16 +67,17 @@ main .col-12 .cat {
   justify-content: center;
   background-position: center;
   border-radius: 10px;
+  transition: 10s;
 }
 main .col-12 .cat h3, main .col-12 .cat button {
   background-color: rgba(255, 255, 255, 0.7);
-  border-radius: 10px;
-}
-main .col-12 .cat-1 {
-  background-image: url(../img/verduras.jpg);
+  border-radius: 5px;
 }
 main .col-12 .cat:hover {
   background-size: 650px;
+}
+main .col-12 .cat-1 {
+  background-image: url(../img/verduras.jpg);
 }
 main .col-12 .cat-2 {
   background-image: url(../img/frutas.jpg);
